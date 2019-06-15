@@ -1,2 +1,2 @@
 # SPARK-Analysis
-spatially resolved data analysis
+All code performed in our experiments
