@@ -12,8 +12,9 @@ for (i in 1:5) {
 
 patterns = c("I", "II", "III")
 ## three major pattern were used for simulation
-df <- setNames(cbind.data.frame(tmplist[[1]][, 1], do.call(cbind, sapply(tmplist[c(5, 
-    1, 4)], "[", 2))), c("xy", paste0("Pattern ", patterns)))
+df <- setNames(cbind.data.frame(tmplist[[1]][, 1], 
+                do.call(cbind, sapply(tmplist[c(5, 1, 4)], "[", 2))), 
+                c("xy", paste0("Pattern ", patterns)))
 pp <- lapply(1:3, function(x) {
     pattern_plot2(df, x, xy = F, main = T, titlesize = 1.5)
 })
