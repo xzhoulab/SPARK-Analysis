@@ -1,5 +1,7 @@
 # SPARK-Analysis
 All code performed in our experiments
+
+## Example
 ```R
 rm(list = ls())
 source("./funcs/funcs.R")
@@ -20,7 +22,7 @@ pp <- lapply(1:3, function(x) {
 })
 
 
-grid.arrange(grobs = pp, ncol = 3)R
+grid.arrange(grobs = pp, ncol = 3)
 
 ```
 ![SPARK-Analysis\_Summarized patterns from mouse olfactory bulb data](mouseOB_pattern.png)
