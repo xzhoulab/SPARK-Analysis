@@ -1,5 +1,5 @@
 # SPARK-Analysis
-All code performed in our experiments
+All scripts performed in our experiments
 
 ## Example
 ```R
