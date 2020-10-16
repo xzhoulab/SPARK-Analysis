@@ -1,5 +1,5 @@
 # SPARK-Analysis
-All scripts performed in our experiments
+All scripts performed in our experiments. For SPARK-X analysis, please visit this [link](https://github.com/xzhoulab/SPARK-X-Analysis)
 
 ## Example
 ```R
